@@ -91,7 +91,11 @@ graphhopper:
   # Possible values: road_class,road_class_link,road_environment,max_speed,road_access
   #   surface,smoothness,max_width,max_height,max_weight,max_weight_except,hgv,max_axle_load,max_length,
   #   hazmat,hazmat_tunnel,hazmat_water,lanes,osm_way_id,toll,track_type,mtb_rating,hike_rating,horse_rating,
-  #   country,curvature,average_slope,max_slope,car_temporal_access,bike_temporal_access,foot_temporal_access
+  #   country,curvature,average_slope,max_slope,car_temporal_access,bike_temporal_access,foot_temporal_access,
+  #   avgspeed_mo_fr_0400_0700, avgspeed_mo_fr_0700_0900, avgspeed_mo_fr_0900_1200, avgspeed_mo_fr_1200_1400, 
+  #   avgspeed_mo_fr_1400_1600, avgspeed_mo_fr_1600_1900, avgspeed_mo_fr_1900_2200, avgspeed_mo_fr_2200_0400, 
+  #   avgspeed_sa_su_0400_0700, avgspeed_sa_su_0700_1000, avgspeed_sa_su_1000_1400, avgspeed_sa_su_1400_1900, 
+  #   avgspeed_sa_su_2200_0400
   graph.encoded_values: car_access, car_average_speed, road_access, avgspeed_mo_fr_0400_0700, avgspeed_mo_fr_0700_0900, avgspeed_mo_fr_0900_1200, avgspeed_mo_fr_1200_1400, avgspeed_mo_fr_1400_1600, avgspeed_mo_fr_1600_1900, avgspeed_mo_fr_1900_2200, avgspeed_mo_fr_2200_0400, avgspeed_sa_su_0400_0700, avgspeed_sa_su_0700_1000, avgspeed_sa_su_1000_1400, avgspeed_sa_su_1400_1900, avgspeed_sa_su_2200_0400
   #### Speed, hybrid and flexible mode ####
 

@@ -21,4 +21,5 @@ Thumbs.db
 
 # Test data and local config
 test_data.pbf
+test_data.osm
 *.local.yml
