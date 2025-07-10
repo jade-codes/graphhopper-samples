@@ -1,0 +1,24 @@
+{
+    "name": "Java & GraphHopper DevContainer",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "java.jdt.ls.java.home": "/usr/local/openjdk-17"
+            },
+            "extensions": [
+                "vscjava.vscode-java-pack",
+                "redhat.java",
+                "pivotal.vscode-spring-boot",
+                "vscjava.vscode-maven"
+            ]
+        }
+    },
+    "forwardPorts": [
+        8989,
+        8900
+    ],
+    "postCreateCommand": "mvn --version"
+}

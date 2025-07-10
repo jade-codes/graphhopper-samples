@@ -1,0 +1,24 @@
+# Maven build output
+target/
+*.log
+
+# GraphHopper cache and data
+graph-cache/
+logs/
+*.gh
+
+# IDE and editor files
+.idea/
+*.iml
+*.swp
+*.swo
+.vscode/
+*.class
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Test data and local config
+test_data.pbf
+*.local.yml
